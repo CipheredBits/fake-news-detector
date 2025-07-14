@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-# Load your saved model and vectorizer
+
 with open('model.pkl', 'rb') as f:
     nb = pickle.load(f)
 
